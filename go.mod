@@ -1,4 +1,4 @@
-module github.com/urfave/cli
+module github.com/p9c/cli
 
 go 1.11
 
