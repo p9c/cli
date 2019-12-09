@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/urfave/cli"
+	"github.com/p9c/cli"
 )
 
 // NewJSONSourceFromFlagFunc returns a func that takes a cli.Context

@@ -6,7 +6,7 @@ import (
 
 // TestRegression tests a regression that was merged between versions 1.20.0 and 1.21.0
 // The included app.Run line worked in 1.20.0, and then was broken in 1.21.0.
-// Relevant PR: https://github.com/urfave/cli/pull/872
+// Relevant PR: https://github.com/p9c/cli/pull/872
 func TestVersionOneTwoOneRegression(t *testing.T) {
 	testData := []struct {
 		testCase       string

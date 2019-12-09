@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/urfave/cli"
+	"github.com/p9c/cli"
 )
 
 var packages = []string{"cli", "altsrc"}
@@ -21,7 +21,7 @@ func main() {
 	app := cli.NewApp()
 
 	app.Name = "builder"
-	app.Usage = "Generates a new urfave/cli build!"
+	app.Usage = "Generates a new p9c/cli build!"
 
 	app.Commands = cli.Commands{
 		cli.Command{
@@ -67,9 +67,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/urfave/cli"
+			packageName = "github.com/p9c/cli"
 		} else {
-			packageName = fmt.Sprintf("github.com/urfave/cli/%s", pkg)
+			packageName = fmt.Sprintf("github.com/p9c/cli/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)

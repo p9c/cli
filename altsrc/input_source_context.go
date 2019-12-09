@@ -3,7 +3,7 @@ package altsrc
 import (
 	"time"
 
-	"github.com/urfave/cli"
+	"github.com/p9c/cli"
 )
 
 // InputSourceContext is an interface used to allow

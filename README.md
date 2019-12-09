@@ -1,13 +1,13 @@
 cli
 ===
 
-[![Build Status](https://travis-ci.org/urfave/cli.svg?branch=master)](https://travis-ci.org/urfave/cli)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/urfave/cli)
+[![Build Status](https://travis-ci.org/p9c/cli.svg?branch=master)](https://travis-ci.org/p9c/cli)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/p9c/cli)
 
-[![GoDoc](https://godoc.org/github.com/urfave/cli?status.svg)](https://godoc.org/github.com/urfave/cli)
+[![GoDoc](https://godoc.org/github.com/p9c/cli?status.svg)](https://godoc.org/github.com/p9c/cli)
 [![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
-[![Go Report Card](https://goreportcard.com/badge/urfave/cli)](https://goreportcard.com/report/urfave/cli)
-[![codecov](https://codecov.io/gh/urfave/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/urfave/cli)
+[![Go Report Card](https://goreportcard.com/badge/p9c/cli)](https://goreportcard.com/report/p9c/cli)
+[![codecov](https://codecov.io/gh/p9c/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/p9c/cli)
 
 cli is a simple, fast, and fun package for building command line apps in Go. The
 goal is to enable developers to write fast and distributable command line
@@ -42,13 +42,13 @@ released version of Go on OS X and Windows.  For full details, see
 ### Using `v1` releases
 
 ```
-$ go get github.com/urfave/cli
+$ go get github.com/p9c/cli
 ```
 
 ```go
 ...
 import (
-  "github.com/urfave/cli"
+  "github.com/p9c/cli"
 )
 ...
 ```
@@ -58,13 +58,13 @@ import (
 **Warning**: `v2` is in a pre-release state.
 
 ```
-$ go get github.com/urfave/cli.v2
+$ go get github.com/p9c/cli.v2
 ```
 
 ```go
 ...
 import (
-  "github.com/urfave/cli.v2" // imports as package "cli"
+  "github.com/p9c/cli.v2" // imports as package "cli"
 )
 ...
 ```

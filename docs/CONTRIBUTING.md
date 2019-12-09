@@ -1,6 +1,6 @@
 ## Contributing
 
-Use @urfave/cli to ping the maintainers.
+Use @p9c/cli to ping the maintainers.
 
 Feel free to put up a pull request to fix a bug or maybe add a feature. We will
 give it a code review and make sure that it does not break backwards

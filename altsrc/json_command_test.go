@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/urfave/cli"
+	"github.com/p9c/cli"
 )
 
 const (
